@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register/> It renders Correctly 1`] = `
+<div
+  className=""
+>
+  <div
+    className="container mt-5 register-box mb-5"
+  >
+    <h5
+      className="pl-5 mt-2"
+    >
+      Signup Here
+    </h5>
+    <form>
+      <div>
+        <input
+          className="form-control mt-3"
+          name="name"
+          onChange={[Function]}
+          placeholder="Enter a name....."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="pl-5"
+        style={
+          Object {
+            "color": "red",
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "outlineColor": "red",
+          }
+        }
+      >
+        
+      </div>
+      <div>
+        <input
+          className="form-control mt-3"
+          name="email"
+          onChange={[Function]}
+          placeholder="Enter a Email....."
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="pl-5"
+        style={
+          Object {
+            "color": "red",
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "outlineColor": "red",
+          }
+        }
+      >
+        
+      </div>
+      <div>
+        <select
+          className="form-control mt-3"
+          name="role"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            value=""
+          >
+            Please Select
+          </option>
+          <option>
+            user
+          </option>
+          <option>
+            admin
+          </option>
+        </select>
+      </div>
+      <div
+        className="pl-5"
+        style={
+          Object {
+            "color": "red",
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "outlineColor": "red",
+          }
+        }
+      >
+        
+      </div>
+      <div>
+        <input
+          className="form-control mt-3"
+          name="password"
+          onChange={[Function]}
+          placeholder="Enter a Password....."
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        className="pl-5"
+        style={
+          Object {
+            "color": "red",
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "outlineColor": "red",
+          }
+        }
+      >
+        
+      </div>
+      <button
+        className="form-control btn-success mt-3 mb-2"
+        onClick={[Function]}
+      >
+        Submit
+      </button>
+      <p
+        className="mt-3 pl-5"
+        style={
+          Object {
+            "fontSize": "12px",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Already have an account?
+      </p>
+    </form>
+  </div>
+</div>
+`;
